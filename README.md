@@ -89,8 +89,10 @@ Thats it for connecting!
 ### step 3.1 starting with coding ###
 Lets finally get started with coding! make a new sketch (if youre not already in a new one), we are going to paste this code, you can just copy paste this. 
 
-#### code #### 
+### code ###
+
 Paste from here:
+```
 #ifdef ESP32
   #include <WiFi.h>
 #else
@@ -219,7 +221,7 @@ void loop() {
     lastTimeBotRan = millis();
   }
 }
-
+```
 
 to here
 
