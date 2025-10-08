@@ -92,7 +92,7 @@ Lets finally get started with coding! make a new sketch (if youre not already in
 ### code ###
 
 Paste from here:
-```
+``` cpp
 #ifdef ESP32
   #include <WiFi.h>
 #else
@@ -221,7 +221,7 @@ void loop() {
     lastTimeBotRan = millis();
   }
 }
-```
+``` 
 
 to here
 
