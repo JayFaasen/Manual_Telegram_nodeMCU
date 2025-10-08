@@ -22,12 +22,13 @@ After you logged in, Search for BotFather in the searchbar, click on botfather a
 
 <img width="250"  alt="Schermafbeelding 2025-10-08 140521" src="https://github.com/user-attachments/assets/d09f9a77-497c-40e9-8d1c-35ad5caee885" />
 
-After starting the chat witch BotFather, you get a big text that contains a lot of things the bot can do for you, for this manual you will only need to type or click on /newbot. After that name your bot, you can name it anything you'd like. The chat should look something like this:
+After starting the chat witch BotFather, you get a big text that contains a lot of things the bot can do for you, for this manual you will only need to type or click on /newbot. After that name your bot, you can name it anything you'd like. when i was choosing a name for my bot, i walked into the problem of not picking a "unique name" when you name your bot, you should pick a name that is not in use. The chat should look something like this:
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/ff4a485f-4d67-46de-a0fa-d3845ef9acdc" />
 
 Make sure you copy the ID-token that got sended to you in the conformation message after you named your bot, you will need it later to controll your ledstrip remotely (so write it down or put it in a safe document). Dont share it with anyone that you dont want to have in controll of your bot, because the token gives controll so make sure you keep it save. 
 
+when i was choosing a name for my bot, i walked into the problem of not picking a "unique name" when you name your bot, it should pick a name that is not in use.
 
 
 ### Step 1.2 ###
@@ -88,7 +89,8 @@ Thats it for connecting!
 ### step 3.1 starting with coding ###
 Lets finally get started with coding! make a new sketch (if youre not already in a new one), we are going to paste this code, you can just copy paste this. 
 
-code:
+#### code #### 
+Paste from here:
 
 #ifdef ESP32
   #include <WiFi.h>
@@ -218,7 +220,7 @@ void loop() {
     lastTimeBotRan = millis();
   }
 }
- 
+to here
 
 ### Step 3.2 changing the code ###
 So after you pasted the code in your arduino file, we have to do some changes. Change your wifi name and password to an internet connection near you that has good connection. The board only supports 2.4GHz Wi-Fi, so if you are using a hotspot make sure its in compatibility mode. And also add your keys that you got from the telegram bots. 
@@ -243,4 +245,38 @@ after that click on /start of type /start.
 You can then give the commands '/led_on' or '/led_off' to turn the LED light strip on or off.
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/2b4a45a0-0472-4e3b-83e2-a3cede9acb7e" />
+
+Thats it! I hope this manual helped you a bit and that your code and LEDS work!
+
+## troubleshooting ##
+Since its quite some steps that we had to go through to make it all work, its quite possible that youve made some mistakes or that something just isnt working right (so did i).
+ SO here are some common mistakes/issues
+
+ ### simple errors ###
+ sometimes when you are connecting your board toch arduino, its possible that you either did something wrong while selecting it, but it can also be on a different port. 
+ Then all you have to do is simply go to the left corner, click on the dropdown menu and select a different board, like you see in the photo below.
+
+ <img width="350" alt="Schermafbeelding 2025-10-08 161217" src="https://github.com/user-attachments/assets/0d5a9ff9-6a76-4c18-98b8-b8eacea265a5" />
+
+
+ ### Neopixel ###
+When you upload your code you can get this error message:
+
+- Compilation error: 'Adafruit_NeoPixel' does not name a type
+This error message applies to a part of the neopixel code:
+
+<img width="350" height="194" alt="Schermafbeelding 2025-10-08 160858" src="https://github.com/user-attachments/assets/738d6ffd-3c42-45ca-bdeb-342374a9cd6a" />
+
+Make sure you downloaded the (right) neopixel liberary. 
+Also check if you put the yellow wire on D1, otherwise change it or change it in the code. 
+
+
+
+#### Sources ####
+- https://bony-wok-82e.notion.site/IoT-manual-TODO-6-0e90a5164627447ea9a6ee254cb7485e
+- https://forum.arduino.cc/t/adafruit-neopixel-multiple-libraries-glitch-help/1211563/2
+- https://icthva.sharepoint.com/:w:/s/FDMCI_ORG__CMD-Amsterdam/Eb7Jd27yWphMuVFbMHV_9WoBEg5_zqAQilsb6Q3gPSKueg?e=f5PM7l
+
+
+
 
