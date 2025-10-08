@@ -91,7 +91,6 @@ Lets finally get started with coding! make a new sketch (if youre not already in
 
 #### code #### 
 Paste from here:
-
 #ifdef ESP32
   #include <WiFi.h>
 #else
@@ -220,6 +219,8 @@ void loop() {
     lastTimeBotRan = millis();
   }
 }
+
+
 to here
 
 ### Step 3.2 changing the code ###
@@ -276,6 +277,7 @@ Also check if you put the yellow wire on D1, otherwise change it or change it in
 - https://bony-wok-82e.notion.site/IoT-manual-TODO-6-0e90a5164627447ea9a6ee254cb7485e
 - https://forum.arduino.cc/t/adafruit-neopixel-multiple-libraries-glitch-help/1211563/2
 - https://icthva.sharepoint.com/:w:/s/FDMCI_ORG__CMD-Amsterdam/Eb7Jd27yWphMuVFbMHV_9WoBEg5_zqAQilsb6Q3gPSKueg?e=f5PM7l
+
 
 
 
