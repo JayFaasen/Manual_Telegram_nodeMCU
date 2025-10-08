@@ -249,6 +249,14 @@ You can then give the commands '/led_on' or '/led_off' to turn the LED light str
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/2b4a45a0-0472-4e3b-83e2-a3cede9acb7e" />
 
+This should be the result:
+
+
+![lichtjes uit](https://github.com/user-attachments/assets/40a77934-ef40-4b27-867c-0fb0d5e1dce9)
+![Lichtjes aan](https://github.com/user-attachments/assets/16430189-a0f7-4b2b-b743-e63fe1dd36f0)
+
+
+
 Thats it! I hope this manual helped you a bit and that your code and LEDS work!
 
 ## troubleshooting ##
