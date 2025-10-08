@@ -1,4 +1,4 @@
-# Manual_Telegram_nodeMCU
+<img width="415" height="1141" alt="image" src="https://github.com/user-attachments/assets/39ce6c1d-f57d-41e7-b226-e3db8bb3f4c9" /># Manual_Telegram_nodeMCU
 Made by Jaydey Faasen. 
 
 ## Introduction ##
@@ -27,6 +27,8 @@ After starting the chat witch BotFather, you get a big text that contains a lot 
 
 Make sure you copy the ID-token that got sended to you in the conformation message after you named your bot, you will need it later to controll your ledstrip remotely (so write it down or put it in a safe document). Dont share it with anyone that you dont want to have in controll of your bot, because the token gives controll so make sure you keep it save. 
 
+
+
 ### Step 1.2 ###
 After completing the Last step, we are going to focus on gathering your telegram chat-id. After you close the bot, go back to the search bar and type "myidbot" or "IDBot". click on 
 the bot and start the chat.
@@ -36,15 +38,46 @@ the bot and start the chat.
 After starting the chat, click on /getid and write down or copy the ID (the ID should only contain numbers)
 ANd thats it for the first step! Continue if you completed both step 1.1 and 1.2. 
 
-## step 2.1 ##
-After completing the setup, the time has finally arrived to do some cool technical stuff! 
+## step 2.1 setting up the board ##
 We are starting of with preparing our board before we plug it in. Lets put the wires in the right place (dont remove or move the wires while its plugged in)
 
 Plug the yellow wire onto D1, The red wire onto 3V and the black one on G. It should look like something like this:
 
+<img width="250" alt="Schermafbeelding 2025-10-08 144612" src="https://github.com/user-attachments/assets/aae43817-cb13-4058-af09-fa389a33b398" />
+Are the wires in the correct places? Continue to the next step. 
 
 
-![WhatsApp Image 2025-10-08 at 14 40 21](https://github.com/user-attachments/assets/367fa2af-5dcb-43e8-9937-b8156a798b5d)
+
+### step 2.2 downloading liberaries ###
+
+After putting the wires on to the right plugs, were going to donwload some arduino liberaries. Open arduino and go to liberaries. 
+
+<img width="250" alt="Schermafbeelding 2025-10-08 145029" src="https://github.com/user-attachments/assets/a113b888-924e-4455-8126-71c9702b19ee" />
+
+First we are going to download Adafruit Neopixel, type this in your searchbard and make sure you download this one and not the DMA one. This might cause errors and problems later. 
+
+<img width="250" alt="Schermafbeelding 2025-10-08 145548" src="https://github.com/user-attachments/assets/a78eadbc-e989-49ce-b217-37e1de61a1e0" />
+
+After downloading this one, we are going to download a liberary for our telegram bot. in the same searchbar type in universal telegram bot and select the one from Brian Lough. Click on download
+
+<img width="415" height="1141" alt="image" src="https://github.com/user-attachments/assets/8dd76461-9da5-4e51-a0b5-9111e5d25e81" />
+
+after you clicked on download, its probably gonna give an notification asking about dependencies. Since we will need them, click on install all.
+
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/807eb9fb-49d2-4256-8291-adb6d48cb509" />
+ After installing the liberaries, you are ready to connect your board. 
+
+
+### step 2.3 connecting our board ###
+For this step its gonna be a little bit more technical, since we are going to connect you NodeMCU board. 
+First click on tools in the left topside on your screen, after many options have folded click on boards esp8266. after you clicked on sep8266, a bunch of board will appear and make sure you scroll down and pick NodeMCU 1.0 (ESP-12E Module)
+
+steps: tools > board > esp8266 > NodeMCU 1.0 (ESP-12E Module)
+
+<img width="300" alt="Schermafbeelding 2025-10-08 150910" src="https://github.com/user-attachments/assets/7e46de64-2c09-45c5-a310-404ec5ed9089" />
 
 
 
+
+
+After completing the setup, the time has finally arrived to do some cool technical stuff! 
