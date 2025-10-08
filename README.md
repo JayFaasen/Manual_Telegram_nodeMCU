@@ -60,7 +60,7 @@ First we are going to download Adafruit Neopixel, type this in your searchbard a
 
 After downloading this one, we are going to download a liberary for our telegram bot. in the same searchbar type in universal telegram bot and select the one from Brian Lough. Click on download
 
-<img width="415" height="1141" alt="image" src="https://github.com/user-attachments/assets/8dd76461-9da5-4e51-a0b5-9111e5d25e81" />
+<img width="350" height="1141" alt="image" src="https://github.com/user-attachments/assets/8dd76461-9da5-4e51-a0b5-9111e5d25e81" />
 
 after you clicked on download, its probably gonna give an notification asking about dependencies. Since we will need them, click on install all.
 
@@ -74,7 +74,7 @@ First click on tools in the left topside on your screen, after many options have
 
 steps: tools > board > esp8266 > NodeMCU 1.0 (ESP-12E Module)
 
-<img width="300" alt="Schermafbeelding 2025-10-08 150910" src="https://github.com/user-attachments/assets/7e46de64-2c09-45c5-a310-404ec5ed9089" />
+<img width="350" alt="Schermafbeelding 2025-10-08 150910" src="https://github.com/user-attachments/assets/7e46de64-2c09-45c5-a310-404ec5ed9089" />
 
 
 
