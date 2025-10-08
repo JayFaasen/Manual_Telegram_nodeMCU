@@ -14,6 +14,9 @@ Lets get started!
 
 ### Step 1 ###
 The first step is easy! Go to your playstore/google store on your mobile phone, and search for telegram in the searchbar. After that make an account and make sure you log in to the mobile app. 
+
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/34f7b075-c6b8-4145-87d7-5cf8513a3b62" />
 
+After you logged in, Search for BotFather in the searchbar, click on botfather and begin the chat. 
 
+<img width="250"  alt="Schermafbeelding 2025-10-08 140521" src="https://github.com/user-attachments/assets/d09f9a77-497c-40e9-8d1c-35ad5caee885" />
