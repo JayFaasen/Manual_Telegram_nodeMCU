@@ -104,8 +104,8 @@ code:
 #endif
 
 // Replace with your network credentials
-const char* ssid = "H369A7AD075";
-const char* password = "369FA9C6CEE2";
+const char* ssid = "your wifi username";
+const char* password = "your wifi password";
 
 // Initialize Telegram BOT
 #define BOTtoken "your bot token that you received from the botfather"
@@ -218,11 +218,29 @@ void loop() {
     lastTimeBotRan = millis();
   }
 }
+ 
 
 ### Step 3.2 changing the code ###
 So after you pasted the code in your arduino file, we have to do some changes. Change your wifi name and password to an internet connection near you that has good connection. The board only supports 2.4GHz Wi-Fi, so if you are using a hotspot make sure its in compatibility mode. And also add your keys that you got from the telegram bots. 
 
 
 edit the code you see here in the photo below: 
+
 <img width="400" alt="Schermafbeelding 2025-10-08 153629" src="https://github.com/user-attachments/assets/887894fe-de1e-451a-b357-706cf4bd75f2" />
+
+If you edited the code your are ready to upload it! click on the arrow button in the left top corner.
+
+<img width="250"  alt="Schermafbeelding 2025-10-08 154150" src="https://github.com/user-attachments/assets/c5efc1de-a7e8-42ed-9f6b-4c6690891a65" />
+
+## Step 4 ##
+We are almost done! This is the last and hopefully a succesfull step. 
+Click on the link from the Botfather chat, see below
+
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/d453b5f1-53b5-46e5-be10-b2ebd88b728d" />
+
+after that click on /start of type /start. 
+
+You can then give the commands '/led_on' or '/led_off' to turn the LED light strip on or off.
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/2b4a45a0-0472-4e3b-83e2-a3cede9acb7e" />
 
